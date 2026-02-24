@@ -2,6 +2,8 @@
 
 # bet365 — Custom JavaScript VM Bytecode Disassembler
 
+> A Rust tool for reverse-engineering the custom virtual machine embedded in bet365's obfuscated JavaScript. Decodes base64 bytecode and prints a full, annotated disassembly trace with 36 supported opcodes.
+
 A bytecode disassembler written in Rust, built to reverse-engineer the custom virtual machine (VM) embedded inside bet365's obfuscated JavaScript client. The tool decodes base64-encoded bytecode, walks the instruction stream byte by byte, and prints a human-readable disassembly trace annotated with byte offsets.
 
 ---
